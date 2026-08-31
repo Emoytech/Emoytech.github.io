@@ -1,0 +1,45 @@
+body{
+    background-color: #1F232A;
+    margin: auto;
+    color: #c9d1d9;
+    font-family: 'JetBrains Mono', monospace; /* or 'IBM Plex Mono' */
+}
+
+.terminal-user {
+    color: #E73A3A;
+}
+
+footer{
+    text-align: center;
+    width: 80%;
+}
+
+.contact dl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact dt {
+  display: inline;
+  margin: 0;
+}
+
+.contact dt {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #c9d1d9;
+}
+.contact{
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  background-color: #1F232A;
+  color: #c9d1d9;
+  text-decoration: none;
+  font-family: inherit;
+}

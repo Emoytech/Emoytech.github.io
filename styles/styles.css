@@ -1,0 +1,69 @@
+body{
+    background-color: #1F232A;
+    margin: auto;
+    color: #c9d1d9;
+    font-family: 'JetBrains Mono', monospace; /* or 'IBM Plex Mono' */
+}
+footer{
+    text-align: center;
+    width: 80%;
+}
+
+.terminal-user {
+    color: #E73A3A;
+}
+.header {
+    color: #5294E2;
+}
+.specs {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 1rem;
+  row-gap: 0.4rem;
+}
+.specs dt {
+  font-weight: 700;
+  color: var(--accent-cyan);
+  grid-column: 1;
+}
+.specs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.specs .spec-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+.specs dt {
+  font-weight: 700;
+  color: var(--accent-cyan);
+  white-space: nowrap;
+  margin: 0;
+}
+.specs dd {
+  margin: 0;
+  color: var(--text-main);
+}
+#me {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+nav > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+li{
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none; 
+    -ms-user-select: none;     
+    user-select: none;  
+    -webkit-touch-callout: none; 
+    -webkit-tap-highlight-color: transparent;
+}
