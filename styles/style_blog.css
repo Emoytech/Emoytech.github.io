@@ -30,16 +30,3 @@ table, table td, table td span {
   -webkit-touch-callout: none;
   touch-action: manipulation;
 }
-.table-scroll {
-  width: 100% !important;
-  overflow-x: auto !important;
-  -webkit-overflow-scrolling: touch !important;
-  touch-action: pan-x !important;
-}
-.table-scroll table{
-  white-space: nowrap;
-}
-.table-scroll table td{
-  white-space: nowrap !important;
-}
-
