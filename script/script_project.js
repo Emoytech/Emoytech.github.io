@@ -66,3 +66,10 @@ table.addEventListener("click", (e) => {
     }
   }, 50);
 });
+window.addEventListener("pageshow", (e) => {
+  if (e.persisted) {
+    clearInterval(typingInterval);
+    isTyping = false;
+    input.textContent = "";
+  }
+});
