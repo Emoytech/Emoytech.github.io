@@ -43,3 +43,19 @@ a {
   text-decoration: none;
   font-family: inherit;
 }
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+li{
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-select: none; 
+    -ms-user-select: none;     
+    user-select: none;  
+    -webkit-touch-callout: none; 
+    -webkit-tap-highlight-color: transparent;
+}
